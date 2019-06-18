@@ -22,6 +22,7 @@ sidebarDepth: 1
 
 ## 新建项目
 
+
 确保 `node` 版本大于 **8.15.0** 的情况下，直接运行以下命令安装命令行工具：
 
 ``` bash
@@ -48,7 +49,11 @@ npm i && wxa2 build
 
 在进行了一段时间小程序开发之后，我们往往需要在真机上面进行调试，这个时候可以使用 `wxa` 命令行调用微信开发者工具，实现一键预览、上传代码的效果。
 
+
 window用户需要在 `wxa.config.js`中配置 `wechatwebdevtools` 选项，填入安装微信开发者工具的目录即可，mac用户如果是默认安装，则无需额外配置。
+
+window用户在 wxa.config.js 配置 wechatwebdevtools
+怎么配置？
 
 一键预览：`wxa2 cli -a preview`
 
